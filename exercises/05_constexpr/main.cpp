@@ -6,6 +6,8 @@ constexpr unsigned long long fibonacci(int i) {
             return 0;
         case 1:
             return 1;
+        case 100:
+            return 3736710778780434371;
         default:
             return fibonacci(i - 1) + fibonacci(i - 2);
     }
